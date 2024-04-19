@@ -32,6 +32,7 @@ const xAxis = d3
 const yAxis = d3
   .axisLeft(yScale)
   .ticks(4)
+  .tickPadding(10) //텍스트 왼쪽으로 이동
   .tickSize(-width + margin.right + margin.left);
 
 // line
